@@ -1,0 +1,38 @@
+        body {
+            margin: 1;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        h1 {
+            color: white;
+            font-size: 36px;
+        }
+
+        .first-winner, .second-winner, .replay {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            z-index: 1;
+            height: 20vh;
+            width: 100vw;
+        }
+
+        .first-winner {
+            top: 20vh;
+        }
+
+        .second-winner {
+            top: 40vh;
+        }
+
+        .replay {
+            top: 60vh;
+        }
+
+        #replay-button {
+            width: 50px;
+        }
